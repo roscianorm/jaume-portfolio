@@ -5,12 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jaume Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
-    <header class="header">
-      <img src="./images/logo.svg" alt="Logo" width="69" height="39" />
-      <button>CURRÍCULUM</button>
-    </header>
+    <div class="wrapper">
+      <header class="header">
+        <img src="./images/logo.svg" alt="Logo" width="69" height="39" />
+        <nav class="menu">
+          <ul>
+            <li><a class="is-active" href="#main">Hola</a></li>
+            <li><a href="#project">Proyectos</a></li>
+            <li><a href="#contact">Hablemos</a></li>
+          </ul>
+        </nav>
+        <button class="button">Currículum</button>
+      </header>
+      <section class="hero" id="main">
+        <div class="hero-image">
+          <img
+            src="./images/jaume2x.png"
+            alt="Jaume"
+            width="328"
+            height="330"
+          />
+        </div>
+        <div class="hero-description">
+          <h1>
+            <span>¡Hola a todos!</span>
+            <span>Soy Jaume</span>
+          </h1>
+          <p>
+            Frontend Developer que le encanta implementar diseños que inspiran y
+            atraen a las personas.
+          </p>
+          <div class="hero-socials">
+            <a class="button-icon" href="#"
+              ><img src="/icons/icon-phone.svg" alt="Phone icon"
+            /></a>
+            <a class="button-icon" href="#"
+              ><img src="/icons/icon-twitter_squared.svg" alt="Phone icon"
+            /></a>
+            <a class="button-icon" href="#"
+              ><img src="/icons/icon-important_mail.svg" alt="Phone icon"
+            /></a>
+            <a class="button-icon" href="#"
+              ><img src="/icons/icon-instagram.svg" alt="Phone icon"
+            /></a>
+            <a class="button-icon" href="#"
+              ><img src="/icons/icon-github.svg" alt="Phone icon"
+            /></a>
+          </div>
+          <a href="leonidasesteban.com" target="_blank" class="button"
+            >Descargar Currículum</a
+          >
+        </div>
+      </section>
+    </div>
   </body>
 </html>
