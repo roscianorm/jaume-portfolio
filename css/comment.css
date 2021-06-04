@@ -1,0 +1,33 @@
+.comment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.comment-content {
+  max-width: 900px;
+  padding-block-start: 2.5rem;
+  padding-block-end: 2.5rem;
+  text-align: center;
+}
+.comment-content p {
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+.comment-content h5 {
+  font: var(--headline5);
+  color: var(--purple);
+  margin: 0;
+}
+.comment-content img {
+  margin-block-start: 1rem;
+}
+@media screen and (min-width: 1024px) {
+  .comment-content {
+    padding-block-start: 8rem;
+    padding-block-end: 10rem;
+  }
+  .comment-content p {
+    font: var(--body3);
+  }
+}

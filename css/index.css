@@ -4,21 +4,42 @@
 @import './button-icon.css';
 @import './hero.css';
 @import './menu.css';
+@import './comment.css';
+@import './recommendation.css';
+@import './project.css';
+@import './social.css';
+@import './form.css';
+@import './title.css';
+@import './footer.css';
+
 :root {
   --base-font: 'Poppins', sans-serif;
+  --aux-font: 'Oxygen', sans-serif;
+
   --headline1: bold 5.9375rem / 9.5625rem var(--base-font);
   --headline2: bold 3.6875rem / 5.9375rem var(--base-font);
   --headline3: bold 3rem / 4.8125rem var(--base-font);
   --headline4: bold 2.125rem / 3.4375rem var(--base-font);
   --headline5: bold 1.5rem / 2.365rem var(--base-font);
+
   --body1: normal 1rem / 1.5625rem var(--base-font);
   --body2: normal 0.875rem / 1.375rem var(--base-font);
+  --body3: 300 2.125rem / 3.4375rem var(--aux-font);
+
+  --headline4aux: bold 2.125rem / 3.4375rem var(--aux-font);
+  --headline6aux: bold 1rem / 1.5625rem var(--aux-font);
+  --body1aux: normal 1rem / 1.5625rem var(--base-font);
+
   --button: bold 0.875rem / 1.375rem var(--base-font);
   --caption: normal 0.75rem / 1.1875rem var(--base-font);
+  --form-label: bold 1rem / 1.5625rem var(--base-font);
+
   --black: #111111;
   --purple: #310a90;
   --green: #42e2b8;
   --white: #ffffff;
+  --soft-white: #ffffff33;
+
   --gradient: radial-gradient(
       41.48% 11.48% at 2.38% 8.52%,
       #747de9 0%,
@@ -27,6 +48,7 @@
     linear-gradient(135deg, #72edf2 0%, #5151e5 100%);
 }
 body {
+  margin: 0;
   background: var(--gradient);
   min-block-size: 100vh;
   font-family: 'Poppins', sans-serif;
